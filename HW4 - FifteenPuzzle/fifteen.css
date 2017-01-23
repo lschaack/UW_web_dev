@@ -1,0 +1,42 @@
+/*
+	Luke Schaack
+	Section AL
+	Style and element sizing info for website containing a fifteen puzzle
+*/
+
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#puzzlearea {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	position: relative;
+}
+
+#puzzlearea div {
+	width: 90px;
+	height: 90px;
+	border: 5px solid black;
+	font-size: 40pt;
+	text-align: center;
+	position: absolute;
+	background-image: url(background.jpg);
+}
+
+.validMove {
+	border-color: red !important;
+	color: red;
+	cursor: pointer;
+}
+
+.winner {
+	color: magenta;
+	font-size: 72pt;
+	font-family: Garamond, serif;
+}

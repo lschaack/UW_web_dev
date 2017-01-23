@@ -1,0 +1,62 @@
+<!-- 
+	Luke Schaack
+	Section AL
+	Layout for speed-reading website which animates user-provided text to
+	display words individually at a user-selected WPM.
+ -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SpeedReader</title>
+		<link rel="stylesheet" type="text/css" href="speedreader.css" />
+		<script type="text/javascript" src="speedreader.js"></script>
+	</head>
+
+	<body>
+		<h1>SpeedReader</h1>
+
+		<div id="display">
+		</div>
+
+		<div id="controls">
+			<fieldset>
+				<legend>Play Controls:</legend>
+				<button id="start">Start</button>
+				<button id="stop">Stop</button>
+			</fieldset>
+
+			<fieldset>
+				<legend>Speed:</legend>
+				<select id="wpm" name="wpm">
+					<option value="500">50 wpm</option>
+					<option value="200">300 wpm</option>
+					<option value="171" selected="selected">350 wpm</option>
+					<option value="150">400 wpm</option>
+					<option value="133">450 wpm</option>
+					<option value="120">500 wpm</option>
+				</select>
+			</fieldset>
+
+			<fieldset>
+				<legend>Size:</legend>
+				<label><input id="medium" type="radio" name="size" checked="checked" /> Medium</label>
+				<label><input id="big" type="radio" name="size" /> Big</label>
+				<label><input id="bigger" type="radio" name="size" /> Bigger</label>
+			</fieldset>
+
+			<div>
+				<fieldset id="inputField">
+					<legend>Input Text</legend>
+					<textarea id="input" rows="10" cols="80"></textarea>
+				</fieldset>
+			</div>
+		</div>
+
+		<div id="validators">
+			<a href="https://webster.cs.washington.edu/validate-html.php"><img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" alt="W3C html validator" /></a>
+			<a href="https://webster.cs.washington.edu/validate-css.php"><img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" alt="W3C css validator" /></a>
+			<a href="https://webster.cs.washington.edu/jslint?referer"><img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" alt="W3C js validator" /></a>
+		</div>
+	</body>
+</html>

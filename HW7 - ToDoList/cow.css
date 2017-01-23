@@ -1,0 +1,29 @@
+/*
+*	Luke Schaack
+*	CSE 154, Homework 7 (Remember The Cow) 
+*	Section AL
+*	Jonathan Shilling
+*	Styling info for a website which keeps a persistent todo list for a given user account.
+*/
+
+body {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+}
+
+.headfoot {
+	background-color: #005AB4;
+	color: white;
+	padding: 0.5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.headfoot img {
+	margin-right: 1em;
+}
+
+#main {
+	padding: 2em;
+}

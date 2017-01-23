@@ -1,0 +1,103 @@
+/*
+	Luke Schaack
+	Section AL
+	Style and element location info for speed-reading website.
+*/
+
+
+body {
+	font-family: Garamond, serif;
+	font-size: 12pt;
+	background-color: #EAF6F6;
+}
+
+#display, h1, #controls {
+	text-align: center;
+}
+
+#display, #inputField textarea, button {
+	border: solid;
+	background-color: #FFFFFF;
+}
+
+button, #validators img {
+	width: 70px;
+}
+
+#display, #controls {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.medium {
+	font-size: 36pt;
+}
+
+.big {
+	font-size: 48pt;
+}
+
+.bigger {
+	font-size: 60pt;
+}
+
+.disabled {
+	background-color: lightgray;
+}
+
+#display {
+	width: 80%;
+	height: 100px;
+	font-family: monospace;
+	line-height: 100px;
+	border-width: 2px;
+	border-radius: 5px;
+	border-color: #8EBEBE;
+}
+
+legend {
+	border-bottom: solid;
+	border-width: 1px;
+	font-weight: bold;
+	width: 100%;
+	padding: 2px;
+	border-color: #8EBEBE;
+	text-align: left;
+}
+
+fieldset {
+	vertical-align: top;
+	border: none;
+	display: inline-block;
+}
+
+#inputField textarea {
+	border-width: 1px;
+	border-color: gray;
+}
+
+button {
+	border-color: gray;
+	border-width: 1px;
+}
+
+#validators {
+	position: fixed;
+	bottom: 4px;
+	left: 5px;
+}
+
+#validators img {
+	margin-right: 4px;
+	vertical-align: bottom;
+	float: left;
+}
+
+#midLetter {
+	color: red;
+}
+
+span {
+	margin: 0px;
+	padding: 0px;
+}

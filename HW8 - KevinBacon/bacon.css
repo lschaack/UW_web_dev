@@ -1,0 +1,116 @@
+/*
+	Luke Schaack
+	CSE 154, Homework 8 (Kevin Bacon) 
+	Section AL
+	Jonathan Shilling
+	Design and layout information for every page in the MyMDB website.
+*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #d0d0c5;
+	margin: 0px;
+	padding-bottom: 55px; /* to provide some room for the footer */
+}
+
+/*
+	Top selectors contain all colors, none of which are factor-able due to being
+	expressed in different attributes, but still makes the color scheme more visible.
+	Every non black/white color is some shade of a single pair of complimentary colors.
+*/
+
+#main {
+	background-color: #fdfdfd;
+	padding: 8px;
+	max-width: 900px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #bfbfc1;
+}
+
+tr:nth-child(odd) {
+  background-color: #efeff2;
+}
+
+table {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: solid #bfbfc1 2px;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+#banner, #w3c {
+	background-color: #171718;
+	width: 100%;
+	font-family: Arial;
+	font-weight: bold;
+	color: #efeff2;
+}
+
+.descriptor {
+	padding-bottom: 3px;
+	border-bottom: solid #171718 2px;
+}
+
+caption, #banner, #w3c {
+	font-size: 24pt;
+}
+
+#main, table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main, #w3c, #banner {
+	overflow: hidden;
+}
+
+.descriptor p {
+	margin: 5px;
+}
+
+#banner p {
+	margin-left: 50px;
+}
+
+#banner img {
+	vertical-align: text-bottom;
+}
+
+#banner p, #banner img {
+	display: inline-block;
+}
+
+#banner p, #banner img, .descriptor {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.container, .descriptor {
+	margin: 8px;
+}
+
+#w3c {
+	position: fixed;
+	bottom: 0px;
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	letter-spacing: -0.03em;
+}
+
+th {
+	padding: 5px;
+}
+
+td {
+	padding: 3px;
+	letter-spacing: 0.03em;
+}
